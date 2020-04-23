@@ -60,7 +60,7 @@ class DList:
     temp=self.head
     strList=''
     while temp is not None:
-      strList+=str(temp.elem).strip()+',\n '
+      strList+=str(temp.elem).strip()+','
       temp=temp.next
     if len(strList)>0:
         strList=strList.strip()[:-1]
