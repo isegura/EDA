@@ -1,0 +1,124 @@
+Marca temporal,,"Nivel de esfuerzo [Nivel de esfuerzo (1 nada, 5 demasiado) que has dedicado para comprender unittests]",Conocimientos adquiridos por los alumnos+as [Has adquirido una buena base sobre pruebas unitarias],Conocimientos adquiridos por los alumnos+as [El uso de unittest te ha ayudado a comprender mejor lo que tenías que hacer en el caso práctico],Conocimientos adquiridos por los alumnos+as [El uso de unittest te ha ayudado a implementar una mejor solución en el caso práctico],Conocimientos adquiridos por los alumnos+as [El uso de unittest aumentado tu motivación en la asignatura],Conocimientos adquiridos por los alumnos+as [El uso de unittest te ha ayudado a comprender los contenidos de la asignatura],¿Qué ventajas ves en el uso de unittest?,"¿Cómo desventajas ves en el uso de unittest?, ¿qué mejorarías?"
+14/05/2021 16:31:40,,2,Muy bueno,Muy bueno,Muy bueno,Satisfactorio,Satisfactorio,Saber si algo está bien o no y que falla,
+14/05/2021 16:31:44,,4,Deficiente,Medio,Satisfactorio,Deficiente,Medio,,
+14/05/2021 16:32:07,,2,Muy bueno,Muy bueno,Excelente,Muy bueno,Muy bueno,,
+14/05/2021 16:32:42,,3,Medio,Deficiente,Deficiente,Deficiente,Deficiente,"Ninguna, por decir una seria que sabes tu resultado antes de entregarla ","Me parece una mala idea, ya que premia el resultado, no la idea o la forma de obtenerlo "
+14/05/2021 16:32:44,,5,Satisfactorio,Muy bueno,Muy bueno,Excelente,Excelente,Encontrar los fallos sin ayuda directa del profesor ,Mejoraría los comentarios de los mismos
+14/05/2021 16:32:58,,4,Satisfactorio,Satisfactorio,Satisfactorio,Satisfactorio,Satisfactorio,,
+14/05/2021 16:33:12,,2,Muy bueno,Excelente,Excelente,Medio,Satisfactorio,Te ayuda a comprobar muchos casos de los algoritmos que creas que quizá no hubieras tenido en cuenta y te ayuda a pensar de forma distinta. ,Ninguna. 
+14/05/2021 16:33:20,,1,Deficiente,Excelente,Excelente,Medio,Medio,Comprobar que el código funcionaba realmente,Ninguna
+14/05/2021 16:33:44,,2,Satisfactorio,Muy bueno,Muy bueno,Medio,Muy bueno,Cuando el enunciado no está claro del todo o no encuentras el problema en tu programa a veces se aclara mirando de qué manera se prueba esa parte del programa en el unittest,Si es un unittest flojo se pueden escapar casos que no sabes si tu programa cumple o no
+14/05/2021 16:33:44,,2,Medio,Satisfactorio,Satisfactorio,Satisfactorio,Medio,,
+14/05/2021 16:34:05,,2,Muy bueno,Excelente,Excelente,Muy bueno,Muy bueno,Es una forma rápida de comprobar que el código se comporta como debería en todos los casos,Pensar en todos los casos posibles para un proyecto es complicado y dedicar demasiado tiempo al desarrollo de unitest reduce el tiempo disponible para escribir y mejorar el código
+14/05/2021 16:34:12,,2,Deficiente,Deficiente,Deficiente,Deficiente,Deficiente,,
+14/05/2021 16:34:20,,1,Deficiente,Medio,Muy bueno,Muy bueno,Deficiente,,
+14/05/2021 16:34:51,,2,Satisfactorio,Medio,Deficiente,Deficiente,Satisfactorio,Es una buena herramienta para guiar a los alumnos hacia unas prácticas dignas de mejor calificación,
+14/05/2021 16:36:01,,3,Deficiente,Excelente,Excelente,Medio,Deficiente,Comprobar que tu código está bien,
+14/05/2021 16:36:16,,4,Deficiente,Medio,Muy bueno,Medio,Muy bueno,Que te ayude a comprobar lo que haces,
+14/05/2021 16:36:47,,4,Deficiente,Satisfactorio,Satisfactorio,Medio,Deficiente,,
+14/05/2021 16:37:21,,5,Deficiente,Deficiente,Deficiente,Deficiente,Deficiente,Cero,Usarlo
+14/05/2021 16:39:17,,1,Satisfactorio,Muy bueno,Excelente,Muy bueno,Muy bueno,Facilidad a la hora de probar el código.,"Estoy muy conforme con cómo han funcionado los tests. Y se agradece que nos los deis hechos, ya que requiere tiempo diseñarlos."
+14/05/2021 16:41:25,,4,Muy bueno,Satisfactorio,Satisfactorio,Medio,Satisfactorio,,
+14/05/2021 16:41:35,,3,Muy bueno,Excelente,Excelente,Muy bueno,Excelente,,
+14/05/2021 16:43:47,,2,Satisfactorio,Deficiente,Excelente,Medio,Medio,Ayuda a hacerte ver si tu programa falla en algún caso que no has tenido en cuenta anteriormente. ,"Te obliga a que la salida de tu programa sea exactamente igual que la que nos proporcionais en el unittest.Es decir, si cambiamos el orden de los argumentos de salida, el unittest saldrá mal inclusion aunque nuestro programa este bien. Lo mejoraría siendo más claros en los enunciados de las prácticas o bien, incluir en el código inicial ya el orden de los argumentos o el tipo de dato que tendría que devolver dicha función (string, object) "
+14/05/2021 16:44:00,,3,Satisfactorio,Medio,Muy bueno,Muy bueno,Muy bueno,Nos permite visualizar mejor el funcionamiento de nuestro código,
+14/05/2021 16:45:31,,2,Medio,Satisfactorio,Muy bueno,Satisfactorio,Satisfactorio,Se puede ver más fácilmente los posibles errores en casos específicos,Se podría explicar un poco más que hace cada prueba porque a veces no se sabe muy bien qué está fallando
+14/05/2021 16:46:19,,3,Satisfactorio,Satisfactorio,Satisfactorio,Satisfactorio,Satisfactorio,Ayuda a ver los posibles fallos del código y motiva a corregirlos ya que te indica el fallo.,
+14/05/2021 16:48:20,,3,Medio,Satisfactorio,Satisfactorio,Satisfactorio,Satisfactorio,Muy útil para comprobar el código.,"Enseñar mejor a realizar uno desde 0, pero que no sea obligatorio tener que hacer uno para una prueba."
+14/05/2021 16:49:09,,2,Medio,Medio,Medio,Medio,Medio,,
+14/05/2021 16:49:12,,3,Medio,Satisfactorio,Satisfactorio,Satisfactorio,Satisfactorio,Ayuda mucho a la hora de comprender y probar el código,"Que se hayan cambiado tanto a los largo de la última fase, pero también entiendo que eso en sí no tiene que ver con el uso de los unittests si no con el caso de la última fase."
+14/05/2021 16:51:38,,2,Medio,Muy bueno,Muy bueno,Muy bueno,Satisfactorio,Es una manera rápida de saber si estamos avanzando o que clase de errores tenemos sin tener que recurrir constantemente al profesor,Quizás debería de darse una clase extra explicando el funcionamiento específico de estos tests y los errores que reportan
+14/05/2021 16:54:08,,3,Satisfactorio,Satisfactorio,Medio,Medio,Medio,"Cuando un caso en el pdf no estaba especificado con detalles, los unit tests suelen contener el resultado esperado.","Algunos imprimen demasiada información en la consola al dar al run, y otros prueban varias cosas en la misma función. Estaría mejor tener casos separados para saber qué cosa específica falla en nuestra implementación."
+14/05/2021 16:57:29,,1,Medio,Satisfactorio,Satisfactorio,Deficiente,Medio,,
+14/05/2021 16:58:23,,3,Excelente,Excelente,Excelente,Excelente,Excelente,,
+14/05/2021 16:58:25,,3,Satisfactorio,Satisfactorio,Muy bueno,Muy bueno,Satisfactorio,,
+14/05/2021 16:58:34,,1,Medio,Satisfactorio,Satisfactorio,Deficiente,Muy bueno,,
+14/05/2021 17:02:44,,4,Excelente,Excelente,Excelente,Muy bueno,Excelente,"Es más fácil solucionar errores en los programas, y además confirmas que lo que vas haciendo, va bien.",Lo veo una herramienta muy útil para la programación. No hay desventajas.
+14/05/2021 17:04:26,,2,Muy bueno,Excelente,Muy bueno,Muy bueno,Muy bueno,"No tienes que ir a ciegas en tu trabajo, tienes un objetivo, que es completar el código pero no sabes cómo empezar ni como marcar tu progreso, con el unittest puedes ir programando uno a uno los casos con una verificación de que lo que estas haciendo está bien.","Tardé bastante en entenderlo, no sé si se llegó a explicar en clase su funcionamiento, pero yo no sabía que era y estuve un poco investigando y leyéndolo. En el caso de que si se explicara en clase, mea culpa."
+14/05/2021 17:05:28,,3,Excelente,Satisfactorio,Satisfactorio,Satisfactorio,Muy bueno,Facilidad para probar el código según vas haciendo modificaciones y así comparar resultados.,"A veces resultan difíciles de entender, especialmente cuando se produce un error, no sabíamos muy bien qué quería decir el mensaje de error. "
+14/05/2021 17:06:21,,5,Muy bueno,Excelente,Excelente,Excelente,Excelente,Viene muy bien para poder saber si estamos haciendo las funciones de la forma correcta.,
+14/05/2021 17:06:41,,2,Medio,Deficiente,Deficiente,Satisfactorio,Medio,,
+14/05/2021 17:06:55,,3,Excelente,Excelente,Excelente,Excelente,Excelente,Poder entender mejor y ver fallos sin recurrir a profesores,
+14/05/2021 17:07:07,,4,Muy bueno,Excelente,Excelente,Muy bueno,Muy bueno,"Poder ir comprobando que tu código funciona correctamente, a medida que avanzas en la practica. Además, permite ver todos los casos a tener en cuenta a la hora de verificar si un código es eficaz o no. ","Un problema que puede surgir es que si quieres probar solo una función, tienes que modificar las demás o el unittest para que no te salga error en lo que todavía no has realizado. "
+14/05/2021 17:10:51,,3,Medio,Muy bueno,Excelente,Medio,Satisfactorio,Que me ayudan a perfilar el código ,Ninguna desventaja. Mejoraría que el expected y el actual estaban truncados y que se nos enseñara un poco más como hacerlos a nosotros mismos en vez de dárnoslos ya hechos
+14/05/2021 17:13:45,,2,Medio,Satisfactorio,Satisfactorio,Medio,Satisfactorio,,
+14/05/2021 17:21:06,,2,Satisfactorio,Excelente,Excelente,Medio,Muy bueno,,
+14/05/2021 17:27:06,,3,Muy bueno,Satisfactorio,Muy bueno,Medio,Medio,Comprobar si el código que debemos implemententar se adecúa a los requerimientos del mismo.,
+14/05/2021 17:36:31,,3,Medio,Satisfactorio,Muy bueno,Satisfactorio,Satisfactorio,Saber cuando tu codigo esta bien,"Realmente nada, solo que a veces da fallos que no sabemos como arreglar, cosa que nos paso en la presentacion del lab case 3"
+14/05/2021 17:48:54,,3,Satisfactorio,Medio,Muy bueno,Medio,Satisfactorio,Puede ayudarte a localizar que es lo que está fallando en el código,
+14/05/2021 18:14:30,,3,Medio,Satisfactorio,Satisfactorio,Medio,Satisfactorio,,
+14/05/2021 18:19:53,,3,Satisfactorio,Excelente,Excelente,Muy bueno,Excelente,"Es una herramienta muy buena para asegurarse de que realmente se está haciendo lo que se pide. Sin los unittest, podría haber casos en los que un código parezca que funcione tal y como lo describe el enunciado, pero fallar en otros casos que pasan más desapercibidos. Los unittest ayudan a que no ocurra lo anterior-",
+14/05/2021 18:24:53,,2,Medio,Deficiente,Medio,Deficiente,Deficiente,Que te dice en que fallas ,"Hay veces que el unitest no comprende todos los casos, por lo que, a pesar de ser una herramienta muy útil, hay casos en los que no sirve "
+14/05/2021 18:56:27,,4,Muy bueno,Excelente,Excelente,Excelente,Excelente,,
+14/05/2021 18:58:39,,2,Satisfactorio,Muy bueno,Satisfactorio,Muy bueno,Satisfactorio,Puedo saber qué he hecho mal en mi código y puedo situar el error,nose
+14/05/2021 19:01:22,,1,Excelente,Excelente,Excelente,Excelente,Excelente,,
+14/05/2021 19:02:40,,2,Satisfactorio,Excelente,Muy bueno,Muy bueno,Muy bueno,,
+14/05/2021 19:11:19,,3,Muy bueno,Excelente,Muy bueno,Satisfactorio,Medio,"Resolución de problemas, permite entender mejor a que nos enfrentamos",Te hace partir de una solución para llegar al código. Cambia un poco el paradigma
+14/05/2021 19:20:25,,3,Satisfactorio,Muy bueno,Muy bueno,Satisfactorio,Satisfactorio,Comprender mejor la solución que se debía realizar y comprobar si lo que se había hecho estaba bien implementado. ,
+14/05/2021 19:27:20,,3,Satisfactorio,Muy bueno,Muy bueno,Satisfactorio,Muy bueno,Ayuda a la hora de la comprobación del código y a detectar con facilidad dónde están los errores,
+14/05/2021 19:27:20,,3,Deficiente,Deficiente,Deficiente,Deficiente,Deficiente,Ninguna por mi experiencia ,Que si tiene errores es difícil escribir bien tu código 
+14/05/2021 19:29:36,,5,Deficiente,Deficiente,Deficiente,Deficiente,Deficiente,saber si están correctos los algoritmos,poco explicados
+14/05/2021 19:43:30,,5,Satisfactorio,Medio,Medio,Deficiente,Deficiente,Facilidad de corrección ,"Complejidad de compresión, pueden contener fallos fácilmente."
+14/05/2021 19:55:50,,4,Satisfactorio,Muy bueno,Muy bueno,Muy bueno,Medio,,
+14/05/2021 20:02:09,,3,Satisfactorio,Muy bueno,Muy bueno,Satisfactorio,Satisfactorio,que se podia ir comprobando constantemente si el codigo creado estaba bien y que cosas estaban fallando,"Sobre todo en el último, habia algunos fallos porque lo que el ejercicio te pedia no era lo mismo que lo que el unitest te pedia"
+14/05/2021 20:27:16,,2,Satisfactorio,Excelente,Excelente,Satisfactorio,Muy bueno,Proporcionar casos que quizá no se nos haya ocurrido,Muchas veces no llegan a dar demasiado información en donde podría estar el error.
+14/05/2021 20:33:32,,2,Satisfactorio,Excelente,Excelente,Excelente,Excelente,"Ayuda a implementar tu solución, y te garantiza que esté bien",
+14/05/2021 21:11:57,,3,Satisfactorio,Excelente,Satisfactorio,Muy bueno,Muy bueno,,
+14/05/2021 21:23:03,,3,Muy bueno,Excelente,Excelente,Excelente,Excelente,It makes easier to understand everithing.,
+14/05/2021 21:47:57,,3,Satisfactorio,Muy bueno,Satisfactorio,Satisfactorio,Satisfactorio,"Es muy util cuando tienes que probar muchas funcionalidades y no quieres las probar una a una, con el unittest lo hace directamente.","A veces diseñar el unittest es algo tedioso, por todos los tests que tienes que hacer"
+14/05/2021 21:52:55,,2,Satisfactorio,Excelente,Excelente,Satisfactorio,Muy bueno,,
+14/05/2021 22:07:42,,3,Satisfactorio,Muy bueno,Muy bueno,Medio,Medio,Poder comprobar si funciona el código,Al principio puede resultar un poco enrevesado de entender
+14/05/2021 22:13:39,,1,Excelente,Excelente,Excelente,Excelente,Excelente,Fácil comprobación de casos particulares ,
+14/05/2021 22:27:39,,2,Muy bueno,Muy bueno,Muy bueno,Satisfactorio,Satisfactorio,Podemos saber nuestra nota relativa y saber que estamos haciendo lo que piden,
+14/05/2021 23:33:40,,3,Deficiente,Satisfactorio,Excelente,Medio,Medio,influye en la mejora de tu código y focalizar el posible fallo que puedas tener y lo cuál es útil a la hora del debugging ,"más especificaciones a la hora de identificar el fallo, pero en general no hay mucho que mejorar."
+14/05/2021 23:51:09,,2,Satisfactorio,Muy bueno,Excelente,Muy bueno,Muy bueno,,
+15/05/2021 0:01:51,,2,Medio,Muy bueno,Muy bueno,Medio,Satisfactorio,Te ayuda a comprobar que los métodos son correctos y saber lo que te piden,"no me gustó tener que hacer uno, lo que se evalúa es crear el algoritmo, no el evaluador del algoritmo"
+15/05/2021 2:30:33,,2,Satisfactorio,Medio,Satisfactorio,Deficiente,Medio,,
+15/05/2021 3:24:24,,3,Satisfactorio,Muy bueno,Excelente,Satisfactorio,Muy bueno,Comprobación de tu código ,A veces resulta confuso 
+15/05/2021 9:25:16,,3,Satisfactorio,Muy bueno,Excelente,Muy bueno,Muy bueno,,
+15/05/2021 10:32:16,,4,Medio,Medio,Excelente,Satisfactorio,Muy bueno,Es una forma muy clara y precisa a la hora de saber si algo en tu programa no funciona como debería.,Dedicar algo más de tiempo en clase a comprender su funcionamiento he implementación.
+15/05/2021 10:32:44,,1,Satisfactorio,Satisfactorio,Medio,Medio,Deficiente,Una guía para los alumnos a la hora de decidir si van por el camino correcto hacia la resolución de la práctica,"Los alumnos nos relajamos cuando vemos que da la solución correcta, lo que nos hace no tratar de mejorar el código más (hacerlo mas eficiente), por  miedo a que falle el unittest y por tanto, la práctica"
+15/05/2021 10:39:30,,2,Satisfactorio,Muy bueno,Muy bueno,Muy bueno,Muy bueno,,
+15/05/2021 11:36:49,,3,Muy bueno,Muy bueno,Satisfactorio,Satisfactorio,Satisfactorio,,
+15/05/2021 11:38:12,,2,Muy bueno,Excelente,Excelente,Excelente,Muy bueno,"Sabes cuando tu programa no está haciendo lo que debería de hacer. Te ayuda a pensar en casos que a veces se te olvida considerar, piensas con más detalle en todo. Te motiva a perfeccionar tu programa. Es una guia excelente de como de adelantado va tu código.",mmmm me parece que se ha planteado muy bien
+15/05/2021 12:07:31,,5,Muy bueno,Excelente,Satisfactorio,Muy bueno,Excelente,"Te ayuda a ver si tu programa funciona en muchas, por no decir todas, las situaciones posibles a las que se puede poner a prueba.",
+15/05/2021 12:12:54,,2,Muy bueno,Excelente,Excelente,Satisfactorio,Muy bueno,,
+15/05/2021 12:41:37,,4,Medio,Medio,Muy bueno,Medio,Satisfactorio,Identificar errores que previamente no conocías y crear un código más eficiente ,"Añadir más comentarios, paso a paso, en aquellas funciones que son más complejas para facilitar la comprensión del código"
+15/05/2021 12:57:11,,1,Muy bueno,Excelente,Muy bueno,Satisfactorio,Muy bueno,Saber la nota antes de entregar el trabajo,
+15/05/2021 13:03:29,,3,Satisfactorio,Muy bueno,Muy bueno,Satisfactorio,Muy bueno,Utilizando el unittest es mas fácil ver donde esta el error,Hacerlo lleva su tiempo
+15/05/2021 13:04:33,,2,Satisfactorio,Satisfactorio,Satisfactorio,,Satisfactorio,,
+15/05/2021 13:07:25,,3,Medio,Excelente,Excelente,Medio,Muy bueno,,
+15/05/2021 15:54:02,,4,Muy bueno,Satisfactorio,Satisfactorio,Satisfactorio,Satisfactorio,,
+15/05/2021 16:03:01,,3,Satisfactorio,Excelente,Excelente,Excelente,Medio,"Llevar unas expectativas realistas de cómo se ha estado implementando el código y cómo de eficaz es, además de ayudar a hacerlo por etapas o ver una estructura escalable de cada función y de todos los requisitos que tiene que cumplir",
+15/05/2021 16:08:13,,4,Satisfactorio,Muy bueno,Muy bueno,Satisfactorio,Muy bueno,Una formación más completa para el alumno ,No tenemos demasiado tiempo para aprender a utilizarlo en profundidad
+15/05/2021 16:38:01,,3,Satisfactorio,Muy bueno,Excelente,Satisfactorio,Muy bueno,"Entender cuando algo funciona como debería, y la posibilidad de al aumentar el código, poder simplemente añadir nuevos unittest.",Ninguna
+15/05/2021 16:48:16,,3,Satisfactorio,Excelente,Excelente,Excelente,Muy bueno,Te ayudan a crear un algoritmo que se adapte a cualquier variación del problema que te plantean y asegurarte de que no haya fugas en el algoritmo.,"Ninguna, todo ventajas."
+15/05/2021 16:59:39,,3,Muy bueno,Excelente,Excelente,Excelente,Excelente,"Nos ha ayudado mucho a la hora de realizar las prácticas, pudimos darnos cuenta de errores que, de no tener el unittest, no los hubiésemos detectado.",No he visto ninguna desventaja.
+15/05/2021 16:59:49,,3,Deficiente,Satisfactorio,Medio,Deficiente,Medio,,
+15/05/2021 16:59:58,,3,Deficiente,Satisfactorio,Medio,Deficiente,Medio,,
+15/05/2021 17:02:15,,4,Muy bueno,Muy bueno,Satisfactorio,Excelente,Muy bueno,Poder programar sabiendo que el trabajo previo es correcto de forma automática (sin tener que comprobar el código ejecutándolo). El proceso de identificar un problema en el código se vuelve más eficiente (se vuelve más rápido identificar cualquier problema).,En caso de cambiar el formato en el que se desea obtener la salida hay que reformular los unittest y comprobar que coincidan con la solución implementada. También toma algo de tiempo diferenciar los posibles distintos caminos que puede seguir un algoritmo y recrearlos en un unittest por cada camino (para cubrir todas las posibilidades del algoritmo).
+15/05/2021 18:10:08,,3,Satisfactorio,Excelente,Excelente,Excelente,Muy bueno,Dispones de un feedback según vas avanzando con el proyecto y te permite saber si vas por un buen camino.,Puede hacer que te obsesiones demasiado en el resultado en vez de centrarte en el proceso.
+15/05/2021 19:09:50,,3,Medio,Excelente,Muy bueno,Muy bueno,Medio,El unittest es un método rápido para la evaluación de un código. A su vez creo que es bueno para los alumnos ya que permite entender lo que el/la  profesor/a quiere que implementemos.,Es un poco complicado su uso desde cero. Alguna clase extra para poder explicarlo de manera mas detenida se agradecería.
+15/05/2021 19:21:00,,3,Muy bueno,Excelente,Excelente,Excelente,Excelente,"Podemos detectar y corregir fallos menores, comprender los formatos de las soluciones, ver una nota provisional y aprender cómo se trabaja con un unittest.",No veo ninguna desventaja.
+15/05/2021 19:25:58,,5,Muy bueno,Muy bueno,Excelente,Muy bueno,Muy bueno,,
+15/05/2021 19:40:27,,4,Satisfactorio,Muy bueno,Excelente,Muy bueno,Muy bueno,,
+15/05/2021 21:28:20,,3,Muy bueno,Muy bueno,Excelente,Excelente,Muy bueno,La seguridad que el programa funciona correctamente así como la detección y señalización de posibles fallos en el código.,"Ninguno, quizás ahondaría más en explicar su funcionamiento."
+16/05/2021 7:13:32,,4,Satisfactorio,Muy bueno,Medio,Medio,Medio,,
+16/05/2021 9:41:53,,4,Muy bueno,Excelente,Satisfactorio,Muy bueno,Muy bueno,Una manera fácil y rápida de comprobar que los pasos que estás dando para encontrar la solución son correctos.,
+16/05/2021 10:18:16,,3,Muy bueno,Muy bueno,Excelente,Excelente,Satisfactorio,Es más fácil entender tu código y saber si tiene fallos porque ya te da todos los casos prácticos posibles,Algunos fallos que da no los comprendo del todo cuando son problemas de los archivos.
+16/05/2021 11:24:30,,4,Medio,Satisfactorio,Muy bueno,Muy bueno,Satisfactorio,"Ha sido muy útil para comprobar que el código estaba bien implementado y ha sido muy útil a la hora de solucionar fallos.
+",Como desventajas no veo ninguna. Si que me hubiera gustado que se hubiera dedicado un poco más de tiempo a explicarnos como hacer un unittest puesto que yo no sabría como hacer uno... 
+16/05/2021 11:57:57,,4,Deficiente,Deficiente,Deficiente,Deficiente,Deficiente,Es más rápido de corregir para los profesores.,"Que aunque el unittest pudiera dar error, que al menos el profesor se mirase tu código para ver que corregir, no que solo te cuelgue la solución en aula global."
+16/05/2021 12:48:20,,2,Deficiente,Excelente,Excelente,Satisfactorio,Satisfactorio,Aprender a programar mejor a base de descubrir y corregir nuestros errores por nuestra propia cuenta.,
+16/05/2021 13:18:56,,3,Medio,Muy bueno,Muy bueno,Medio,Satisfactorio,,
+16/05/2021 13:23:55,,5,Deficiente,Deficiente,,Deficiente,Deficiente,"El poder comprobar de forma muy completa y eficiente, el funcionamiento de los progrmas",El hecho de ser tedioso la realización de los mismos; y que además depende de la habilidad del programador el ver todos los posibles casos de error que pueden tener sus programas
+16/05/2021 13:40:25,,4,Medio,Satisfactorio,Muy bueno,Medio,Medio,,
+16/05/2021 14:05:53,,4,Muy bueno,Muy bueno,Excelente,Excelente,Excelente,Nos proporciona información de manera que podemos detectar los errores rápidamente y corregirlos sin necesidad de volver a empezar. ,
+16/05/2021 17:59:37,,3,Medio,Medio,Medio,Deficiente,Medio,,
+16/05/2021 18:13:34,,3,Muy bueno,Muy bueno,Excelente,Muy bueno,Muy bueno,Que a través de este puedes ejecutar de forma rápida y sistemática pruebas sobre tu código para ir puliéndolo y cambiando los posibles errores que a lo mejor a simple vista cuestan mas de ver,"Que a lo mejor a veces se hace un poco tedioso, sobre todo al principio, el pensar que pruebas hacer, pero no es algo malo como tal. "
+16/05/2021 21:23:29,,3,Satisfactorio,Excelente,Excelente,Satisfactorio,Muy bueno,,
+17/05/2021 9:38:07,,4,Medio,Satisfactorio,Satisfactorio,Medio,Medio,Su efectividad para detectar problemas en partes concretas del código y para hacer el código más simple,Más explicación en los errores
+17/05/2021 12:33:32,,3,Muy bueno,Muy bueno,Excelente,Excelente,Excelente,Comprender los fallos del programa y arreglarlos para conseguir un código funcional al 100%.,"En el segundo unittest sí que estaba, pero en el primer unittest no entendía al 100% cuál era la función de cada test, creo que debería aparecer un string comentando lo que hace ese test para saber cuál es el fallo como tal."
+17/05/2021 18:41:00,,4,Deficiente,Deficiente,Deficiente,Deficiente,Deficiente,Más rápido de corregir y menos trabajo para el profesor,No acepta casos particulares de distintos métodos utilizados 
+17/05/2021 20:26:00,,3,Muy bueno,Excelente,Satisfactorio,Excelente,Muy bueno,Ayuda a orientar mejor las implementaciones de los casos prácticos y la nota obtenida ayuda a mejorar la motivación.,A veces es complicado identificar con precisión el por qué un test falla y ello conlleva estar mucho tiempo revisando tanto el código de los métodos como el código de las pruebas unitarias hasta dar con el error.
+20/05/2021 17:07:19,,2,Satisfactorio,Excelente,Excelente,Satisfactorio,Satisfactorio,Que se tienen en cuenta todas las excepciones posibles. Sin él no creo que nos hubiésemos dado cuenta de todas. Además es más práctico de cara al futuro y facilita los trabajos. ,"No hemos llegado a ver cómo funciona el unittest ""por dentro"" y al dar algunos errores no he sido capaz de entenderlos. Era útil saber qué caso daba error pero no fui capaz de entender cómo funcionaba el código interno del unittest y tenía que crear un test a parte para solucionar los errores. De todas formas, me parece muy útil y práctico."
