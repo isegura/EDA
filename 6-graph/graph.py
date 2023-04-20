@@ -1,20 +1,4 @@
 # -*- coding: utf-8 -*-
-import tkinter as tk
-
-class GraphGUI:
-    def __init__(self, master):
-        self.master = master
-        self.vertices = []
-
-        # create a listbox to display vertices
-        self.vertex_listbox = tk.Listbox(self.master)
-        self.vertex_listbox.pack(side=tk.LEFT, padx=100, pady=100)
-
-
-# create the main window and start the GUI
-root = tk.Tk()
-app = GraphGUI(root)
-root.mainloop()
 
 class AdjacentVertex:
     """ This class allows us to represent a tuple
