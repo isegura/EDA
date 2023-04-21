@@ -1,6 +1,6 @@
-from graph import *
 import tkinter as tk
 import math
+from graph import *
 
 class GraphGUI:
     def __init__(self, graph: Graph = None):
@@ -10,14 +10,20 @@ class GraphGUI:
         # create the main window and start the GUI
         root = tk.Tk()
         root.title('Graph')
-        root.geometry('600x600')
         root.resizable(False, False)
 
         # Create the canvas
         canvas = tk.Canvas(root, width=600, height=600)
         canvas.pack(padx=10, pady=10)
 
+        circle1 = Node(canvas, 50, 500, 500)
+        circle2 = Node(canvas, 50, 350, 100)
+        circle3 = Node(canvas, 50, 100, 500)
 
+        # Creamos una línea que una los círculos
+        Edge(canvas, circle1, circle2)
+        Edge(canvas, circle2, circle3)
+        Edge(canvas, circle2, circle1)
 
         root.mainloop()
 
@@ -31,14 +37,16 @@ class Node:
             self.text = canvas.create_text(self.pos_x + self.radius, self.pos_y + self.radius, text=text)
 
 class Edge:
-    def __init__(self, canvas: tk.Canvas, start: Node, end: Node):
+    def __init__(self, canvas: tk.Canvas, start: Node, end: Node, weight: int =1):
         self.start = self.__calculate_start(start, end)
         self.end = self.__calculate_end(start, end)
         self.line = canvas.create_line(self.start[0], self.start[1], self.end[0], self.end[1], arrow=tk.LAST)
+        canvas.create_text((self.start[0] + self.end[0])//2, (self.start[1] + self.end[1])//2, text=str(weight))
+        canvas.create_window((self.start[0] + self.end[0])//2, (self.start[1] + self.end[1])//2, window=tk.Label(canvas, text=str(weight)))
 
     def __calculate_start(self, start: Node, end: Node) -> tuple:
         """
-        It calculates the initial position of the arroy that connects the nodes "start" and "end"
+        It calculates the initial position of the arrow that connects the nodes "start" and "end"
         :param start: Node
         :param end: Node
         :return: tuple with the initial position of the arrow
@@ -60,7 +68,7 @@ class Edge:
 
     def __calculate_end(self, start: Node, end: Node) -> tuple:
         """
-        It calculates the final position of the arroy that connects the nodes "start" and "end"
+        It calculates the final position of the arrow that connects the nodes "start" and "end"
         :param start: Node
         :param end: Node
         :return: tuple with the final position of the arrow
@@ -94,22 +102,4 @@ g.add_edge('C', 'B', 20)  # C->(20)B
 g.add_edge('C', 'D', 32)  # C->(32)D
 g.add_edge('E', 'A', 7)   # E->(7)A
 
-# Creamos la ventana
-root = tk.Tk()
-
-# Creamos el canvas y lo añadimos a la ventana
-canvas = tk.Canvas(root, width=600, height=600)
-canvas.pack(padx=10, pady=10)
-
-# Creamos los círculos como óvalos con el mismo ancho y alto para que sean circulares
-circle1 = Node(canvas, 50, 500, 500)
-circle2 = Node(canvas, 50, 350, 100)
-circle3 = Node(canvas, 50, 100, 500)
-
-# Creamos una línea que una los círculos
-line = Edge(canvas, circle1, circle2)
-line2 = Edge(canvas, circle2, circle3)
-line3 = Edge(canvas, circle2, circle1)
-
-# Mostramos la ventana
-root.mainloop()
+GraphGUI(g)
