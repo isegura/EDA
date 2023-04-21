@@ -13,34 +13,60 @@ class GraphGUI:
         root.resizable(False, False)
 
         # Create the canvas
-        canvas = tk.Canvas(root, width=600, height=600)
-        canvas.pack(padx=10, pady=10)
+        self.canvas = tk.Canvas(root, width=600, height=600)
+        self.canvas.pack(padx=10, pady=10)
 
-        circle1 = Node(canvas, 50, 500, 500)
-        circle2 = Node(canvas, 50, 350, 100)
-        circle3 = Node(canvas, 50, 100, 500)
+        self.nodes =[]
+        """i = 0
+        for vertex in self.graph._vertices:
+            self.nodes.append(Node(canvas, 40, 30 + i*100, 100, text=str(vertex)))
+            i += 1"""
 
-        # Creamos una línea que una los círculos
-        Edge(canvas, circle1, circle2)
-        Edge(canvas, circle2, circle3)
-        Edge(canvas, circle2, circle1)
+        self.nodes.append(Node(self.canvas, 40, 30 + 0 * 100, 100, text='A'))
+        self.nodes.append(Node(self.canvas, 40, 30 + 2 * 100, 40, text='B'))
+        self.nodes.append(Node(self.canvas, 40, 30 + 4 * 100, 100, text='C'))
+        self.nodes.append(Node(self.canvas, 40, 30 + 100, 400, text='D'))
+        self.nodes.append(Node(self.canvas, 40, 30 + 400, 400, text='E'))
+
+
+        i = 0
+        for vertex in self.graph._vertices:
+            for adj in self.graph._vertices[vertex]:
+                for node in self.nodes:
+                    if node.id == str(adj.vertex):
+                        Edge(self.canvas, self.nodes[i], node, adj.weight)
+            i += 1
+
+        self.canvas.tag_bind("movil", "<ButtonPress-1>", self.on_press)
+        self.canvas.tag_bind("movil", "<Button1-Motion>", self.move)
+        self.selected_node = None
 
         root.mainloop()
 
+    def on_press(self, event):
+        node = self.canvas.find_withtag(tk.CURRENT)
+        self.selected_node = (node, event.x, event.y)
+
+    def move(self, event):
+        x, y = event.x, event.y
+        node, x0, y0 = self.selected_node
+        self.canvas.move(node, x - x0, y - y0)
+        self.selected_node = (node, x, y)
+
 class Node:
-    def __init__(self, canvas: tk.Canvas, radius:int, posx: int, posy: int, bg: str = "White", text: str | None = None):
+    def __init__(self, canvas: tk.Canvas, radius:int, posx: int, posy: int, text: str, bg: str = "White"):
+        self.id = text
         self.radius = radius
         self.pos_x = posx
         self.pos_y = posy
-        self.circle = canvas.create_oval(self.pos_x, self.pos_y, self.pos_x + self.radius*2, self.pos_y + self.radius*2, fill=bg, width=2)
-        if text:
-            self.text = canvas.create_text(self.pos_x + self.radius, self.pos_y + self.radius, text=text)
+        self.circle = canvas.create_oval(self.pos_x, self.pos_y, self.pos_x + self.radius*2, self.pos_y + self.radius*2, fill=bg, width=2, tags="movil")
+        self.text = canvas.create_text(self.pos_x + self.radius, self.pos_y + self.radius, text=text, tags="movil")
 
 class Edge:
     def __init__(self, canvas: tk.Canvas, start: Node, end: Node, weight: int =1):
         self.start = self.__calculate_start(start, end)
         self.end = self.__calculate_end(start, end)
-        self.line = canvas.create_line(self.start[0], self.start[1], self.end[0], self.end[1], arrow=tk.LAST)
+        self.line = canvas.create_line(self.start[0], self.start[1], self.end[0], self.end[1], arrow=tk.LAST, width=1.5)
         canvas.create_text((self.start[0] + self.end[0])//2, (self.start[1] + self.end[1])//2, text=str(weight))
         canvas.create_window((self.start[0] + self.end[0])//2, (self.start[1] + self.end[1])//2, window=tk.Label(canvas, text=str(weight)))
 
