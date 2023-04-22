@@ -1,35 +1,60 @@
 import tkinter as tk
 import math
-from graph import *
 
 class GraphGUI:
-    def __init__(self, graph: Graph, node_radius: int = 40):
-        if type(graph) != Graph:
-            raise TypeError("The parameter must be a Graph object")
+    def __init__(self, graph, node_radius: int = 40, scr_width: int = 600, scr_height: int = 600):
+        """
+        Creates a GraphGUI object, which will display the graph in a external window. Nodes can be moved with the mouse.
+        The creation of the window will stop the execution of the program until the window is closed. Thus, it is recommended
+        to create the GraphGUI object at the end of the program.
+        :param graph: The graph to be displayed
+        :param node_radius: The radius of the nodes (default 40)
+        :param scr_width: The width of the window (default 600)
+        :param scr_height: The height of the window (default 600)
+        """
+        if type(node_radius) != int:
+            raise TypeError("The parameter node_radius must be an integer")
+        if type(scr_width) != int or type(scr_height) != int:
+            raise TypeError("The parameters scr_width and scr_height must be integers")
+        if node_radius < 10 or node_radius > 100:
+            raise ValueError("The parameter node_radius must be a value between 10 and 100")
+        if scr_width < 200 or scr_height < 200:
+            raise ValueError("The parameters scr_width and scr_height must be values greater than 200")
+        if scr_width > 1000 or scr_height > 1000:
+            raise ValueError("The parameters scr_width and scr_height must be values less than 1000")
         self.graph = graph
         # create the main window and start the GUI
         root = tk.Tk()
-        root.title('Graph')
+        root.title('GraphGUI')
         root.resizable(False, False)
 
         # Create the canvas
-        self.canvas = tk.Canvas(root, width=600, height=600)
+        self.canvas = tk.Canvas(root, width=scr_width, height=scr_height)
         self.canvas.pack(padx=10, pady=10)
 
+        # Preparation for the nodes display
+        scr_center = (scr_width//2, scr_height//2)
+        display_radius = min(scr_width, scr_height)//2 - node_radius - 10
+        arch_angle = 360/len(graph._vertices)
+        first_node_pos = (scr_center[0] - node_radius, scr_center[1] - node_radius)
+
+        # Display the nodes
         self.nodes =[]
-        """i = 0
+        i = 0
+        angle = 0
         for vertex in self.graph._vertices:
-            self.nodes.append(Node(canvas, 40, 30 + i*100, 100, text=str(vertex)))
-            i += 1"""
+            if i == 0:
+                self.nodes.append(Node(self.canvas, node_radius, first_node_pos[0], first_node_pos[1], text=str(vertex)))
+            else:
+                self.nodes.append(Node(self.canvas,
+                                       node_radius,
+                                       scr_center[0] - node_radius - display_radius*math.sin(math.radians(angle)),
+                                       scr_center[1] - node_radius - display_radius*math.cos(math.radians(angle)),
+                                       text=str(vertex)))
+            i += 1
+            angle += arch_angle
 
-        self.nodes.append(Node(self.canvas, node_radius, 30 + 0 * 100, 100, text='A'))
-        self.nodes.append(Node(self.canvas, node_radius, 30 + 2 * 100, 40, text='B'))
-        self.nodes.append(Node(self.canvas, node_radius, 30 + 4 * 100, 100, text='C'))
-        self.nodes.append(Node(self.canvas, node_radius, 30 + 100, 400, text='D'))
-        self.nodes.append(Node(self.canvas, node_radius, 30 + 400, 400, text='E'))
-
-        print(graph)
-
+        # Display the edges
         i = 0
         self.edges = []
         for vertex in self.graph._vertices:
@@ -152,19 +177,3 @@ class Edge:
         x = math.cos(math.radians(edge_angle)) * end.radius
         y = math.sin(math.radians(edge_angle)) * end.radius
         return  (center_end[0] - int(x), center_end[1] - int(y))
-
-
-
-
-labels = ['A', 'B', 'C', 'D', 'E']
-g = Graph(labels)
-
-# Now, we add the edges
-g.add_edge('A', 'C', 12)  # A->(12)C
-g.add_edge('A', 'D', 60)  # A->(60)D
-g.add_edge('B', 'A', 10)  # B->(10)A
-g.add_edge('C', 'B', 20)  # C->(20)B
-g.add_edge('C', 'D', 32)  # C->(32)D
-g.add_edge('E', 'A', 7)   # E->(7)A
-
-GraphGUI(g)
